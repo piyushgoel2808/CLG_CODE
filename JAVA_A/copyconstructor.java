@@ -20,6 +20,11 @@ class Student {
     int roll_no;
     String name;
     String pass;
+    int marks[]= new ;
+    marks[0]= 41;
+    marks[1] = 55;
+    marks[3]=41;
+    marks[4]=99;
 
     Student(Student s99) {
         this.name = s99.name;
