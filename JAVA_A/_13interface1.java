@@ -1,6 +1,6 @@
 import javax.swing.event.SwingPropertyChangeSupport;
 
-public class interface1 {
+public class _13interface1 {
     public static void main(String[] args) {
         herbivorus h1 = new herbivorus() {
 
@@ -53,6 +53,28 @@ interface carnivorus {
 
     void eat();
 }
+
+
+class lion implements carnivorus {
+    public void eat() { // it is neccary to declare public another wise it will go to default
+        System.out.println("meat (lion)");
+    }
+}
+
+// class Bear implements lion{              //The type lion cannot be a superinterface of Bear; a superinterface must be an interface
+//     public void eat(){           
+//         System.out.println("meat (Bear)");
+//     }
+// }
+
+// class tiger extends carnivorus {             //The type carnivorus cannot be the superclass of tiger; a superclass must be a CLASS not interface
+//     public void eat() { 
+//         System.out.println("meat (lion)");
+//     }
+// }
+
+
+
 interface omnivorus extends carnivorus{     
     void print() ;
 }
@@ -82,20 +104,3 @@ class humans implements omni2{
 
 
 
-class lion implements carnivorus {
-    public void eat() { // it is neccary to declare public another wise it will go to default
-        System.out.println("meat (lion)");
-    }
-}
-
-// class Bear implements lion{              //The type lion cannot be a superinterface of Bear; a superinterface must be an interface
-//     public void eat(){           
-//         System.out.println("meat (Bear)");
-//     }
-// }
-
-// class tiger extends carnivorus {             //The type carnivorus cannot be the superclass of tiger; a superclass must be a CLASS not interface
-//     public void eat() { 
-//         System.out.println("meat (lion)");
-//     }
-// }
