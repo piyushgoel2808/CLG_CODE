@@ -32,7 +32,7 @@ public class _10copyconstructor {
 //         this.roll_no = s99.roll_no;
 //         this.pass=s99.pass;
 //     }
-
+ 
 //     Student() {
 //         System.out.println("the CONSTRUCTOR is called(NON PARAMETRIZED CONSTRUCTOR)"); // NON PARAMETRIZED
 //                                                                                        // CONSTRUCTOR

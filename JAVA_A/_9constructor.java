@@ -1,4 +1,4 @@
-public class constructor {
+public class _9constructor {
     public static void main(String arge[]) {
         System.out.println("This is a program is made by PIYUSH GOEL");
         System.out.println("\n############### NON PARAMETRIZED CONSTRUCTOR ###############");

@@ -1,4 +1,4 @@
-public class abstractclass {
+public class _12abstractclass {
     public static void main(String[] args) {
         cow c1 = new cow();
         c1.eat();
@@ -8,8 +8,9 @@ public class abstractclass {
         System.out.println(c1.color);
         }
 
-    
+
 }
+
 abstract class animal{
     String color;
     animal(){
@@ -34,3 +35,6 @@ class cow extends animal{
 
     }
 }
+
+
+   
