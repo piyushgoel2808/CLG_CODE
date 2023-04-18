@@ -1,14 +1,17 @@
 public class A6 {
-        //This program is Written by Piyush Goel
     public static void main(String[] args) {
-        // Type casting
-        float a = 25.923f;
-        int b = (int) a;
-        System.out.println(b);
-
-        // Type Conversion
-        int c = 99;
-        long d = c;
-        System.out.println(d);
+      // Check if there are exactly two command-line arguments
+      if (args.length == 2) {
+        // Convert the first argument to an int value
+        int num1 = Integer.parseInt(args[0]);
+        // Convert the second argument to a double value
+        double num2 = Double.parseDouble(args[1]);
+        // Calculate and print the sum of the two numbers
+        double sum = num1 + num2;
+        System.out.println("The sum of " + num1 + " and " + num2 + " is " + sum);
+      } else {
+        // Print an error message if there are not exactly two arguments
+        System.out.println("Please enter exactly two numbers as command-line arguments");
+      }
     }
-}
+  }

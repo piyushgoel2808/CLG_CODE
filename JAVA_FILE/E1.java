@@ -8,6 +8,6 @@ class Add{
     int a = 98;
     int b = 2;
     Add(){
-        System.out.print("a+ b = "+ (a+b));
+        System.out.print("a + b = "+ (a+b));
     }
 }
