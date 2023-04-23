@@ -1,4 +1,5 @@
 public class B6 {
+  //This program is Written by Piyush Goel
     public static void main(String[] args) {
         int[] arr = {5, 2, 8, 7, 1};
         int min = arr[0];

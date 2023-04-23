@@ -22,7 +22,7 @@ class MaxAgeException extends Exception {
     public String getMessage() {
         return "Make sure that the value of age entered is correct";
     }
-}
+} 
 
 public class _4exception_class {
     public static void main(String[] args) {

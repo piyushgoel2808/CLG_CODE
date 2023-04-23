@@ -1,4 +1,4 @@
-package Q30.mypack;
+package mypack;
 
 public class myclass {
     int a = 1;

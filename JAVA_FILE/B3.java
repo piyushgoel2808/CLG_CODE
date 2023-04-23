@@ -1,5 +1,5 @@
 import java.util.Arrays;
-
+//This program is Written by Piyush Goel
 public class B3 {
     public static void main(String[] args) {
         int[] arr = {5, 2, 8, 7, 1};

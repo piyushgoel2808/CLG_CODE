@@ -1,5 +1,5 @@
 package Q30.mypack;
-
+//This program is Written by Piyush Goel
 public class myclass {
     int a = 1;
   private int pri_a = 2;

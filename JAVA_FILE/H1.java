@@ -1,3 +1,4 @@
+//This program is Written by Piyush Goel
 interface Stack {
     void push(int item);
     int pop();
