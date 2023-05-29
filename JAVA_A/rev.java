@@ -12,7 +12,7 @@ public class rev {
 
     }
     
- java.util.
+ java.util.*
     public static void main(String[] args){
         int marks[] = { 1,2,5,9,4};
         rev1(marks);

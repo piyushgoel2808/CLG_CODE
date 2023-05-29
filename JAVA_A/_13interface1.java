@@ -22,8 +22,7 @@ public class _13interface1 {
 
     }
 }
-
-class organism {
+ class organism {
     // void print(){
     // System.out.println("organism");
     // }
@@ -67,7 +66,7 @@ class lion implements carnivorus {
 //     }
 // }
 
-// class tiger extends carnivorus {             //The type carnivorus cannot be the superclass of tiger; a superclass must be a CLASS not interface
+// class tiger extends carnivorus {             //The type carnivorus cannot be the superclass of tiger; a superclass must be a CLASS not interface 
 //     public void eat() { 
 //         System.out.println("meat (lion)");
 //     }
@@ -100,7 +99,4 @@ class humans implements omni2{
     public void print(){
         System.out.println("HUMAN print ");
     }
-}
-
-
-
+} 

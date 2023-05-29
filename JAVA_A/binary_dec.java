@@ -23,7 +23,7 @@ public class binary_dec {
         int rem = 0;
         int b_no = 0;
         int c = 0;
-        while (a > 0) {
+        while (a > 0) { 
             rem = a % 2;
             a = a / 2;
             b_no = b_no + (rem * (int) Math.pow(10, c));

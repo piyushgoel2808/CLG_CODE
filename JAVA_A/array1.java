@@ -4,10 +4,10 @@ public class array1 {
             System.out.print(arr[i]);
         }
     }
+    
     public static void main(String args[]){
         int arrr[] = {1,2,2};
         // PA(arrr);
         System.out.print(arrr.length);
     }
 }
- 
