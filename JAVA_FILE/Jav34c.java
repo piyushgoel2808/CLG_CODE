@@ -1,22 +1,15 @@
-
-// Example 3: Using throws to declare the exceptions that a method may throw.public class Jav34c {
-    public static void main(String[] args) {
+public class Jav34c {
+    public static void main(String args[]) {
         try {
-            // Call a method that may throw an IOException
-            readFile("test.txt");
-        } catch (IOException e) {
-            // Handle the exception
-            System.out.println("File not found");
+            int result = divide(10, 0); // Divide by zero
+            System.out.println("Result: " + result);
+        } catch (ArithmeticException ex) {
+            System.out.println("Caught Exception: " + ex.getMessage());
+        } finally {
+            System.out.println("Inside finally block");
         }
     }
-
-    // Declare that this method may throw an IOException
-    public static void readFile(String fileName) throws IOException {
-        // Try to open the file
-        FileInputStream fis = new FileInputStream(fileName);
-        // Do some operations on the file
-        // ...
-        // Close the file
-        fis.close();
+    public static int divide(int dividend, int divisor) {
+        return dividend / divisor;
     }
 }

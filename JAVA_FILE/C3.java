@@ -26,7 +26,7 @@ public class C3 {
  
         System.out.println("The string compared to \"Hello World\" is: " + str.compareTo("Hello World"));
         System.out.println("The string compared to \"hello world\" is: " + str.compareTo("hello world"));
-        System.out.println("The string compared to \"Hello Java\" is: " + str.compareTo("Hello Java"));
+        System.out.println("The string compared to \"Hello Java\" is: " + str.compareTo("Hello Java"));  
 
  
         System.out.println("The index of 'o' in the string is: " + str.indexOf('o'));
@@ -35,7 +35,7 @@ public class C3 {
 
         System.out.println("The string after replacing 'l' with 'x' is: " + str.replace('l', 'x'));
 
- 
+  
         String str2 = "   Hello World   ";
         System.out.println("The string with spaces is: \"" + str2 + "\"");
         System.out.println("The string after trimming spaces is: \"" + str2.trim() + "\"");

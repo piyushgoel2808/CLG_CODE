@@ -30,7 +30,7 @@ public class _15cloanable_interface {
 	public static void main(String[] args)
 		throws CloneNotSupportedException
 	{
-		A a = new A(20, "GeeksForGeeks");
+		A a = new A(20, "piyush goel");
 
 		// cloning 'a' and holding
 		// new cloned object reference in b

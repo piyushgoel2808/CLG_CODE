@@ -6,8 +6,10 @@ public class D1 {
         b1.volume(2,3,1);
     }
 }
+
 class Box{
     public void volume(int l, int h, int w){
         System.out.print(l*w*h);
     }
 }
+

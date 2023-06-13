@@ -20,12 +20,13 @@ public class BankAccount {
 
     public double getBalance() {
         return balance; // return the current balance
-    } 
-
-public class InsufficientFundsException extends Exception {
-    public InsufficientFundsException(String message) {
-        super(message); // call the superclass constructor with the message
     }
 
+    public class InsufficientFundsException extends Exception {
+        public InsufficientFundsException(String message) {
+            super(message); // call the superclass constructor with the message
+        }
+
+    }
 }
 // }
