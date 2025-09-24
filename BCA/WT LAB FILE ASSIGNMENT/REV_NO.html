@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<!-- THIS HTML FILE IS MADE BY PIYUSH GOEL -->
+
+<head>
+    <script>
+        var a, n, b, rev = 0;
+        n = Number(prompt("Enter the number"));
+        b = n;
+        while (n > 0) {
+            a = n % 10;
+            n = parseInt(n / 10);
+            rev = rev * 10 + a;
+        }
+        alert(rev);
+        document.write("The reverse of number " + b + " is " + rev);
+    </script>
+</head>
+
+</html>

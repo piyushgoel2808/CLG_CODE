@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<!-- THIS HTML FILE IS MADE BY PIYUSH GOEL -->
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        /* Create three equal columns that floats next to each other */
+        .column {
+            float: left;
+            width: 33.33%;
+            padding: 10px;
+            height: 300px;
+            /* Should be removed. Only for demonstration */
+        }
+
+        /* Clear floats after the columns */
+        .row:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h2>Three Equal Columns</h2>
+
+    <div class="row">
+        <div class="column" style="background-color:#aaa;">
+            <h2>Column 1</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quos numquam nostrum aspernatur sequi, dolorum magni nulla perspiciatis perferendis molestiae officiis.</p>
+        </div>
+        <div class="column" style="background-color:rgb(45, 55, 194);">
+            <h2>Column 2</h2>
+            <p>Lorem ipsum dolor sit amet.</p>
+        </div>
+        <div class="column" style="background-color:rgb(230, 43, 43);">
+            <h2>Column 3</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+    </div>
+
+</body>
+
+</html>

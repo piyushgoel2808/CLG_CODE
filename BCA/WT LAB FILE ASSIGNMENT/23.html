@@ -1,0 +1,90 @@
+<html lang="en">
+
+<head>
+    <title>CSS Practical 3</title>
+    <style>
+        .c1 {
+            margin: 20px;
+            width: 50%;
+            text-align: justify;
+            /*  center, right, left  */
+            text-align-last: center;
+        }
+
+        .c2 {
+            text-decoration: underline;
+            /* overline */
+            text-decoration-style: double;
+            text-decoration-color: red;
+        }
+
+        #p1 {
+            text-decoration: overline wavy greenyellow;
+        }
+
+        .c3 {
+            text-decoration: underline dashed rgb(54, 63, 39);
+        }
+
+        #p2 {
+            margin: 20px;
+            width: 30%;
+            text-align: justify;
+            /*  center, right, left  */
+            text-align-last: center;
+            text-indent: 10%;
+            text-align: justify;
+            text-justify: inter-word;
+            font-size: 30px;
+            text-shadow: 5px 3px 4px red;
+            text-transform: capitalize;
+            border: 2px #aa8833 solid;
+            white-space: nowrap;
+            overflow: scroll;
+        }
+
+        #p3 {
+            margin: 20px;
+            width: 30%;
+            text-align: justify;
+            /*  center, right, left  */
+            text-align-last: center;
+            text-indent: 10%;
+            text-align: justify;
+            text-justify: inter-word;
+            font-size: 20px;
+            text-shadow: 5px 3px 4px rgb(73, 0, 0);
+            text-transform: capitalize;
+            text-decoration: rgb(99, 8, 54) underline;
+        }
+    </style>
+</head>
+
+<body>
+    <h1 align="center" style="font-size: 40px;">CSS Text Styling Attributes</h1>
+    <hr size="4px" style="background-color: grey;">
+    <br><br>
+    <h2>Using Class</h2>
+    <hr>
+    <p class="c1">
+        <span class="c1">This is a Paragraph for showing the use of font styling attributes</span>
+        <br><br><span class="c2">This is a Paragraph for showing the use of font styling attributes</span>
+        <br><br><span class="c3">This is a Paragraph for showing the use of font styling attributes</span>
+        <br><br><br>
+
+    <h2>Using ID</h2>
+    <hr>
+    <br>This is a Paragraph for showing the use of font styling attributes</p>
+    <br><span id="p1">This is a Paragraph for showing the use of font styling attributes</span>
+    <p id="p3">
+        This is a Paragraph for showing the use of font styling attributes
+    </p>
+    <center>
+        <p id="p2">
+            This is a Paragraph for showing the use of font styling attributes
+        </p>
+    </center>
+    </p>
+</body>
+
+</html>

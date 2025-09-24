@@ -1,0 +1,60 @@
+<html>
+  <!-- THIS HTML IS MADE BY PIYUSH GOEL -->
+<head>
+    <title>Date Object</title>
+    <script>
+        function f1() {
+            var v = document.getElementById("p1");
+            v.classList.add("c2");
+            v.classList.remove("c3");
+            v.classList.remove("c4");
+        }
+        function f2() {
+            var v = document.getElementById("p1");
+            v.classList.add("c3");
+            v.classList.remove("c2");
+            v.classList.remove("c4");
+        }
+        function f3() {
+            var v = document.getElementById("p1");
+            v.classList.add("c4");
+            v.classList.remove("c3");
+            v.classList.remove("c2");
+        }
+    </script>
+    <style>
+        .c1 {
+            width: 100px;
+            height: 100px;
+            margin: 20px;
+            padding: 20px;
+            border: 2px #aa4499 solid;
+        }
+
+        .c2 {
+            border: 2px #2299dd solid;
+        }
+
+        .c3 {
+
+            border: 2px #77aaa7 solid;
+        }
+
+        .c4 {
+            border: 2px #334455 solid;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+
+    </div>
+    <div>
+        <p id="p1" class="c1" onclick="f1();" onmouseover="f2();" onmouseout="f3();">
+            A paragraph
+        </p>
+    </div>
+</body>
+
+</html>

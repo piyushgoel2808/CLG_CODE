@@ -1,0 +1,22 @@
+<!-- 2.	Write JavaScript code that allows user to enter a number n 
+and then displays the factorial of each number from 1 to n in the following format:
+Factorial of 1 is 1
+Factorial of 2 is 2 -->
+
+<html>
+
+<head>
+    <title>Factorial</title>
+</head>
+<script>
+    var i = 0,
+        sum = 1,
+        n;
+    n = prompt("Enter a number: ", 5);
+    for (let i = 1; i < n; i++) {
+        sum *= i;
+        document.write("Factorial of " + i + " is " + sum + "<br/>");
+    }
+</script>
+
+</html>

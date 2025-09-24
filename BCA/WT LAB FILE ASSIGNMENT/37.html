@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<!-- THIS HTML FILE IS MADE BY PIYUSH GOEL -->
+
+<head>
+    <script>
+        const num = parseInt(prompt(("Enter a number between 1-10:")));
+        if (num < 0) {
+            document.write("This is negative number");
+        }
+        else if (num == 0) {
+            document.write("Factorial of 0 is 1 <br>");
+        }
+        else {
+            let fact = 1;
+            for (i = 1; i <= num; i++) {
+                fact = fact * i;
+            }
+            document.write("The factorial of " + num, " is" + fact);
+        }
+    </script>
+</head>
+
+<body>
+</body>
+
+</html>

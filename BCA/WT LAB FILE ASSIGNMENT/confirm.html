@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- THIS HTML FILE IS MADE BY PIYUSH GOEL -->
+<head>
+    <script>
+        function getconfirm() {
+            var b = confirm("Want to continure?")
+            if (b == true) {
+                document.write("yes")
+                return true;
+            }
+            else {
+                document.write("No")
+                return false;
+            }
+        }
+    </script>
+</head>
+
+<body>
+    <p>Confirm Box</p>
+    <form>
+        <div>
+            <input type="button" value="CLICK" onclick="getconfirm()" ; />
+        </div>
+    </form>
+</body>
+
+</html>

@@ -1,0 +1,84 @@
+<html>
+
+<head>
+    <title>Text Properties in CSS</title>
+    <style>
+        .c1 {
+            margin: 20px;
+            width: 50%;
+            text-align: justify;
+            text-align-last: center;
+        }
+
+        .c2 {
+            text-decoration-line: underline;
+            text-decoration-style: double;
+            text-decoration-color: #ff55aa;
+        }
+
+        .c3 {
+            text-decoration: overline dotted #23f381;
+        }
+
+        .c4 {
+            margin: 30px;
+            width: 50%;
+            text-indent: 10%;
+            text-align: justify;
+            text-justify: inter-word;
+            font-size: 30px;
+            text-shadow: 5px 3px 4px #ff4411;
+            text-transform: none;
+            border: 2px #aa8833 solid;
+            
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+
+        }
+        h2{
+            color: cornflowerblue; text-align: center;
+        }
+    </style>
+</head>
+
+<body style="background-color: gold;">
+    <h2>CSS has following text properties: </h2>
+    <ul style="color: #09da09;">
+        <li>text-align</li>
+        <li>text-align-last</li>
+        <li>text-decoration</li>
+        <li>text-decoration-color</li>
+        <li>text-decoration-style</li>
+        <li>text-decoration-line</li>
+        <li>text-indent</li>
+        <li>text-justify</li>
+        <li>text-overflow</li>
+        <li>text-shadow</li>
+        <li>text-transform</li>
+    </ul>
+    <hr>
+    <h2>Examples</h2>
+    <p class="c1">
+        <span class="c2">text-decoration</span> property specifies the decoration added to the text. It is shorthand for
+        three properties. text-decoration-line is required. It sets different types of text decoration lines. 
+        <span class="c2">text-decoration-line has these three values:</span> underline, overline, and line-through.
+    </p>
+    <p class="c1">It has one more value that is - none. text-decoration style has these values: <span class="c3"> solid,
+            double, dotted, dashed, wavy </span>.
+    <p class="c4">
+        text-indent property indents the first line with different values. We can specify length of indent in pixels as
+        well as as percentage. text-justify property justifies the text. text-overflow property specifies how overflowed
+        content that is not displayed should be provided to the user. It can be clipped, display an ellipsis (...), or
+        display as custom string. text-justify property has these values - auto, inter-word, inter-character, and none;
+        text-shadow property adds shadow to the text. text-shadow property requires horizontal shadow, vertical shadow,
+        blur radius, and shadow color. Horizontal shadow and vertical shadow are required but blur radius and shadow
+        color are optional.
+        text-transform property controls the capitalization of text. It has these values - none, capitalize, uppercase,
+        lowercase.
+    </p>
+
+    </p>
+</body>
+
+</html>
